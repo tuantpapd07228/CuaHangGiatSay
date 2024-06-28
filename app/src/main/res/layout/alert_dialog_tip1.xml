@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/background_tips">
+        <ImageView
+            android:id="@+id/btnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:src="@drawable/close"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chọn quần jeans phù hợp với dáng người"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#464647"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#464647"
+            android:layout_marginTop="25dp"
+            android:justificationMode="inter_word"
+            android:text="Có nhiều trường hợp bạn gặp phải tình huống thay đổi từ trang phục công sở đến trang phục dự tiệc chỉ trong tíc tắc. Cuộc sống bận rộn của một cô gái năng động luôn tràn ngập những giây phút phải thay đổi ngay lập tức như vậy."/>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="365dp"
+            android:src="@drawable/imgmeovat1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#464647"
+            android:layout_marginTop="25dp"
+            android:justificationMode="inter_word"
+            android:text="Để làm chủ được kĩ năng “Reset”phong cách chỉ trong vòng vài phút là một điều quý giá giúp các nàng tiết kiệm thời gian cho chính bản thân mình."/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+

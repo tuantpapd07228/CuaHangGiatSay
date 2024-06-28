@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:backgroundTint="@color/white"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/anhdichvu1"
+                android:id="@+id/xacNhan_img"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ten dich vu"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/xacNhan_name"
+                    android:textColor="@color/orange"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ten dich vu"
+                    android:textStyle="bold"
+                    android:maxLines="2"
+                    android:textSize="18sp"
+                    android:id="@+id/xacNhan_mota"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="10">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:layout_height="wrap_content"
+                        android:text="so luong"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:id="@+id/xacNhan_quantity"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="7"
+                        android:layout_height="wrap_content"
+                        android:text="0 vnd"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="#F44336"
+                        android:id="@+id/xacNhan_price"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

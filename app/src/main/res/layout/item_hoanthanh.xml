@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:backgroundTint="@color/white"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:text="#0325"
+                android:id="@+id/hoanthanh_outer_id"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="#0325"
+                android:gravity="end"
+                android:id="@+id/hoanthanh_outer_date"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hoanthanh_outer_rcv"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginVertical="10dp"
+            android:weightSum="10"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Đã hoàn thành"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:drawableStart="@drawable/baseline_check_24"
+                android:textColor="#4CAF50"
+                android:textStyle="bold"
+                android:layout_weight="5"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textColor="#F44336"
+                android:textSize="14dp"
+                android:text="15000 đ"
+                android:textStyle="bold"
+                android:id="@+id/hoanthanh_outer_price"
+                android:layout_weight="5"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

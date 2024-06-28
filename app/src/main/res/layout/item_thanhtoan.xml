@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/newsv"
+            android:id="@+id/item_thanhtoan_img"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+
+            android:layout_height="80dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ten don hang"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:id="@+id/item_thanhtoan_name"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:id="@+id/item_thanhtoan_description"
+                android:text="mo ta"
+                android:textSize="14dp"
+                android:layout_below="@+id/item_thanhtoan_name"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_thanhtoan_price"
+                android:text="7.500"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="#E9330B"
+                android:layout_below="@+id/item_thanhtoan_description"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:id="@+id/item_thanhtoan_quantity"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="x1"
+                android:textSize="14dp"
+                android:textColor="#B1B1B1"/>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

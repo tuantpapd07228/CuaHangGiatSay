@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:background="@drawable/background_tips">
+            <ImageView
+                android:id="@+id/btnClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:src="@drawable/close"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mẹo giặt quần áo không hôi mùa mưa"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#464647"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.Giặt Và Phơi Quần Áo Vào Sáng Sớm"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#464647"
+                android:layout_marginTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="Đầu tiên mọi người nên áp dụng đó là giặt và phơi quần áo vào sáng sớm.Buổi sáng là thời gian lý tưởng nhất để bạn giặt và phơi quần áo. Vì quần áo sẽ được tiếp xúc với ánh sáng trong khoảng thời gian cả ngày sẽ giúp quần áo khô nhanh hơn trong mùa mưa ẩm. "/>
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="365dp"
+                android:src="@drawable/imgmeovat2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#464647"
+                android:layout_marginTop="25dp"
+                android:justificationMode="inter_word"
+                android:text="Nếu bạn giặt và phơi quần áo vào buổi tối thì quần áo sẽ bị ẩm và có mùi khó chịu vì không có gió và ánh sáng chiếu vào."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.Giặt Bằng Nước Nóng"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="25dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#464647"
+                android:layout_marginTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="Bạn có thể sử dụng chế độ giặt quần áo bằng nước nóng trên máy giặt để quần áo nhanh khô hơn và sẽ không gây ra mùi hôi khó chịu khi mùa mưa kéo dài."/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="365dp"
+                android:src="@drawable/imgmeovat3"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#464647"
+                android:justificationMode="inter_word"
+                android:text="Nếu bạn giặt và phơi quần áo vào buổi tối thì quần áo sẽ bị ẩm và có mùi khó chịu vì không có gió và ánh sáng chiếu vào."/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.cardview.widget.CardView>
+
+

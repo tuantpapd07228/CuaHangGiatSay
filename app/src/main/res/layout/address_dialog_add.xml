@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    app:cardCornerRadius="15dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/orange"
+            android:text="Thêm Địa Chỉ"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#FE8B00"
+            app:endIconTint="#FE8B00"
+            app:hintTextColor="#FE8B00"
+            app:passwordToggleTint="#FE8B00"
+            android:layout_marginBottom="10dp"
+           >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/addaddress_name"
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:maxLength="50"
+                android:layout_height="wrap_content"
+                android:hint="Họ tên"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#FE8B00"
+            app:endIconTint="#FE8B00"
+            app:hintTextColor="#FE8B00"
+            app:passwordToggleTint="#FE8B00">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/addaddress_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:maxLength="11"
+                android:hint="Số điện thoại"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            app:boxStrokeColor="#FE8B00"
+            app:endIconTint="#FE8B00"
+            app:hintTextColor="#FE8B00"
+            app:passwordToggleTint="#FE8B00">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/addaddress_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:hint="Địa chỉ"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/resource_background_button"
+            android:id="@+id/addaddress_update"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="18sp"
+            android:text="Lưu thông tin"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

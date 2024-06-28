@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:backgroundTint="@color/white"
+    android:weightSum="10">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:src="@drawable/anhdichvu1"
+            android:layout_weight="3"
+            android:id="@+id/listdichvuimg"
+            android:padding="10dp"
+            android:layout_height="120dp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+            <TextView
+                android:id="@+id/ServiceName"
+                android:layout_width="wrap_content"
+                android:text="Combo giặt ủi 5 kí "
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:textColor="#150B3D"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/ServiceDescription"
+                android:layout_width="wrap_content"
+                android:text="Giá rẻ bất ngờ, tiết kiệm đến 5k/ kí"
+                android:textSize="12dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/ServicePrice"
+                    android:layout_width="wrap_content"
+                    android:text="12000 đ"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="  VND"
+                    android:textSize="16dp"
+                    android:layout_weight="5"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="wrap_content"
+                    android:gravity="end">
+                    <ImageView
+                        android:id="@+id/ServiceAdd"
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/plus1"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

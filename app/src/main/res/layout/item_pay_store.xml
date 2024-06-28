@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    >
+
+        <ImageView
+            android:id="@+id/imgShop"
+            android:layout_width="100dp"
+            android:layout_centerVertical="true"
+            android:layout_height="100dp"
+            android:src="@drawable/imgshop2" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_toEndOf="@+id/imgShop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:text="GiatSayUi"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/txtDescribe"
+            android:layout_width="wrap_content"
+            android:layout_toEndOf="@+id/imgShop"
+            android:layout_below="@+id/txtName"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:text="MoTa"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_toEndOf="@+id/imgShop"
+            android:layout_below="@+id/txtDescribe"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:text="Gia tien: 1000 Đ"
+            android:textColor="#D80101"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/txtQuantity"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/txtDescribe"
+            android:layout_toEndOf="@+id/txtPrice"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="textEnd"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="x1"
+            android:textColor="#8F8F8F"
+            android:padding="10dp" />
+
+    </RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/background_tips">
+        <ImageView
+            android:id="@+id/btnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:src="@drawable/close"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Làm thế nào để quần áo khô nhanh trong mùa mưa ẩm?"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#464647"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#464647"
+            android:layout_marginTop="25dp"
+            android:justificationMode="inter_word"
+            android:text="Thêm vào đó, nước xả vải không những giúp đồ của bạn được thơm tho, loại bỏ vi khuẩn, một số loại nước xả còn có thêm nhiều tính năng xả 1 lần, tiết kiệm thời gian và có khả năng hấp thụ ánh nắng tốt hơn, khiến cho quần áo nhanh khô hơn so với thông thường."/>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="365dp"
+            android:src="@drawable/imgmeovat4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#464647"
+            android:layout_marginTop="25dp"
+            android:justificationMode="inter_word"
+            android:text="Việc dùng thêm một số nước xả vải chuyên biệt sẽ có thể giúp quần áo nhanh khô hơn."/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
